@@ -13,7 +13,7 @@ spec:
         component: web
     spec:
       containers:
-        - name: client
-          image: rallycoding/multi-client
-          ports:
-            - containerPort: 3000
+      - name: client
+        image: joymakasi/multi-client
+        ports:
+        - containerPort: 3000
